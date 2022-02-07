@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.backImg{
+    width : 100%;
+    height : 100vh;
+   background-image: url('home.jpg') ;
+    background-size: cover;
+    display: flex;
+    align-items: center ; 
+    justify-content: center  ;
+    text-align: center;
+    
+    
+    }
+
+    .profile{
+        height: 60vh;
+        width: 350px;
+         background-color: rgba(109, 77, 18, 0.37);
+         padding: 30px 0 ;
+         border-radius: 15% ;
+        
+        }
+
+    img{
+        height: 145px; 
+        width: 25vh;
+        border-radius: 50%;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+    
+    .Profiletext{
+        margin-bottom: 20px;
+      
+    }
+    
+    .Profiletext h2{
+        font-size: 2em;
+        font-weight: 500;
+        margin-bottom: 7px;
+        color: black;
+    
+    }
+    
+    .Profiletext h3{
+        font-size: 1.4em;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: rgb(53, 50, 50);
+    
+    }
+
+    p{
+        padding: 0;
+        margin: 10px;
+        color:rgb(12, 1, 1)
+
+    }
+    p b i {
+        color: black;
+    }
+
+    .profilefont a i{
+        
+        color: rgba(206, 207, 223, 0.781) ;
+        margin: 10px;
+        font-size: 1.8em;
+    }
+    #header {
+        width: 99%;
+        height: 95px;
+        padding: 0 10px;
+        background: url(home1.jpg);
+        
+    }
+    
+    #header #title {
+        padding: 40px 0 20px 30px;
+        font-size: 30px;
+        letter-spacing: 10px;
+        color: rgba(206, 207, 223, 0.781) ;
+        font-weight: normal;
+    }
+   
+
+    ul{ 
+        float: right;
+        list-style-type: none;
+        margin-top: 10px;
+    }
+    ul li{
+        display: inline-block;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color:rgba(252, 250, 250, 0.856);
+        padding: 5px 15px;
+        border: 2px solid rgba(247, 244, 244, 0.788);
+        transition: 0.6s ease;
+        float: right;
+    
+    }
+    
+    ul li a:hover{
+        background-color: rgb(255, 255, 255);
+        color:rgb(8, 8, 8);
+    }
